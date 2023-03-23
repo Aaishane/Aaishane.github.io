@@ -1,0 +1,102 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;  /*header stay fix on top page*/
+    top:0;
+    left:0;
+    right:0;
+    background-color:#a8a4a0 ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240, 240, 240);
+
+    z-index: 100;
+
+  
+}
+
+.left-section{
+
+    flex: 1;
+
+display: flex;
+align-items: center;
+}
+
+
+
+
+
+.shoewear-logo{
+    height: 90%;
+    width: 230px;
+    margin-left: 10%;
+    cursor: pointer;
+
+} 
+
+
+.user-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+   margin-left: 24px;
+   margin-right: 24px;
+
+}   
+
+.cart-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    margin-left: 24px;
+ 
+}
+
+.cart-icon-container .tooltip,
+.user-icon-container .tooltip{
+    position: absolute;
+    background-color:#43484D;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+    white-space: nowrap;
+
+}  
+
+.cart-icon-container:hover .tooltip,
+.user-icon-container:hover .tooltip{
+    opacity: 1;
+}   
+
+.right-section{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;  /*don't shrink right section when size down*/
+
+}
+.cart-icon{
+    height: 30px;
+ 
+}
+.user-icon{
+    height: 19.3px;
+   
+}
+
+

@@ -1,0 +1,24 @@
+.product-description {
+    border-bottom: 1px solid #a8a4a0;
+    margin-bottom: 20px;
+  }
+  .product-description span {
+    font-size: 20px;
+    color:  #43484D;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #43484D;
+    line-height: 24px;
+  }

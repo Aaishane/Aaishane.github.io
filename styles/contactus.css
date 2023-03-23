@@ -1,0 +1,280 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    font-family:sans-serif ;
+}
+
+body{
+   background-image: url("images/shoe9e.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.contact-form{
+    margin-top: 100px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-form h1{
+    font-size: 32px;
+    color: white;
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out ;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+
+
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #f44336;
+    border: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+
+    margin-bottom: 200px;
+}
+
+form .submit:hover{
+    background: #ff5722;
+    cursor: pointer;
+}
+
+
+
+
+
+/*header*/
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: fixed;  /*header stay fix on top page*/
+    top:0;
+    left:0;
+    right:0;
+    background-color:#000000 ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(114, 34, 34);
+  
+    z-index: 100;
+  
+  
+  }
+  
+  .left-section{
+  
+    flex: 1;
+  
+  display: flex;
+  align-items: center;
+  }
+  
+  
+  
+  
+  
+  .shoewear-logo{
+    height: 90%;
+    width: 230px;
+    margin-left: 46%;
+  
+  } 
+  
+  
+  .user-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+   margin-left: 24px;
+   margin-right: 24px;
+  
+  }   
+  
+  .cart-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    margin-left: 24px;
+  
+  }
+  
+  .cart-icon-container .tooltip,
+  .user-icon-container .tooltip{
+    position: absolute;
+    background-color:#43484D;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events:none;
+    white-space: nowrap;
+  
+  }  
+  
+  .cart-icon-container:hover .tooltip,
+  .user-icon-container:hover .tooltip{
+    opacity: 1;
+  }   
+  
+  .right-section{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;  /*don't shrink right section when size down*/
+  
+  }
+  .cart-icon{
+    height: 30px;
+  
+  }
+  .user-icon{
+    height: 19.3px;
+   
+  }
+  
+
+  
+  
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:black;
+    padding: 70px 0;
+    
+}
+
+.footer-row{
+display: flex;
+flex-wrap: wrap;
+
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: white;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	
+	bottom: -10px;
+	background-color: #ffffff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	color:  white;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a:hover{
+	color: #e61f1f;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:#34373b;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #e61f1f;
+}
+
+
+.footer hr{
+  border: none;
+  background:#34373b;
+  height: 1px;
+  margin: 20px 0 ;
+
+}
+
+.copyright{
+  text-align:center;
+  color:white;
+}
+
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*end of footer */

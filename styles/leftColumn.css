@@ -1,0 +1,41 @@
+
+
+img{
+    width: 100%;
+    display: block;
+ 
+}
+
+
+/* main picture resize*/
+.img-display{   
+    overflow: hidden;
+    width: 550px;
+    
+}
+
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+   
+}
+ /* small pictures resize*/
+.img-select{
+    display: flex;
+    width: 550px;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}

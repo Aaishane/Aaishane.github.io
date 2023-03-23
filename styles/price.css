@@ -1,0 +1,26 @@
+/* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color:#1a4f47;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color:#00917B;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background: #197367;
+  }

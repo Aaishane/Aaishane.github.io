@@ -1,0 +1,14 @@
+.product-rating{
+  margin-top: 6px;
+  color: #C28422;
+ margin-bottom: 30px;
+}
+.product-rating span{
+  font-weight: 600;
+  color: #43484D;
+}
+
+.review-fs{
+  font: family 0;
+  color: #43484D;
+}

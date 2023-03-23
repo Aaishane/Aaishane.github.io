@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0;
+   
+    background-image: linear-gradient(to right , #ffffff, #fdf9f6, #e7e0d8);
+  }
+   
+  .container {
+   max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }

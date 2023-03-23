@@ -1,0 +1,53 @@
+
+
+.container#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+.container .content{
+    position: relative;
+    max-width: 800px;
+}
+
+
+.container .content img{
+    max-width: 100%;
+    display: block;
+  
+}
+
+.close-btn{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 165px;
+    text-decoration: none;
+    color: #fff;
+    background: #43484D;
+    
+}
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding-left: 100px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.shoesiz{
+    width: 400px;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
